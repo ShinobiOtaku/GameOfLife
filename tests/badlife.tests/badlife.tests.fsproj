@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Underpopulation.fs" />
+    <Compile Include="Overpopulation.fs" />
+    <Compile Include="World.fs" />
+    <Compile Include="StillLifes.fs" />
+    <Compile Include="Oscillators.fs" />
+    <Compile Include="SampleInput.fs" />
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Expecto" Version="8.13.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\badlife.fsharp.fsproj" />
+  </ItemGroup>
+
+</Project>
